@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+}
+
+.container {
+  background-color: rgb(39, 109, 109);
+  height: 400px;
+  width: 600px;
+  display: flex;
+  border: 5px solid rgb(188, 255, 255);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(75, 228, 228), -5px -5px 10px rgb(16, 173, 173);
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 600;
+  height: 35px;
+  width: 110px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px 5px 10px rgb(75, 228, 228), -5px -5px 10px rgb(84, 163, 163);
+}
+
+.hours,
+.minutes,
+.seconds,
+.amorpm {
+  background-color: aqua;
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  box-shadow: -5px 5px 10px rgb(75, 228, 228), -5px 5px 10px rgb(84, 163, 163);
+}
+
+#hours,
+#minutes,
+#seconds,
+#amorpm {
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > h3 {
+  text-align: center;
+  font-weight: bold;
+}
